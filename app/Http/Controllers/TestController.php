@@ -14,6 +14,7 @@ class TestController extends Controller
 
     public function test(DemoInterface $demo)
     {
+    	dd(\MyIoc::demo1());
         dd($demo->demo1());
     }
 
