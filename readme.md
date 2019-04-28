@@ -98,3 +98,7 @@ class Container
 
     $computer = $container->make('Computer',['Board']);
 ```
+
+### 纯PHP版
+
+[依赖注入](https://github.com/iiDestiny/dependency-injection)
